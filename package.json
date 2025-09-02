@@ -1,0 +1,19 @@
+{
+  "name": "sample-webhook",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "Ali Amir",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
